@@ -1,0 +1,59 @@
+@import url(Ultrachromic/jf_font.css);
+@import url(Ultrachromic/fixes.css);
+@import url(Ultrachromic/base.css);
+@import url(Ultrachromic/accentlist.css);
+
+/* @import url(Ultrachromic/rounding.css); */
+@import url(Ultrachromic/rounding_circlehover.css);
+
+/* 演员列表 */
+@import url(Ultrachromic/smallercast.css);
+
+/* 剧集列表 */
+/* @import url(Ultrachromic/episodelist/episodes_compactlist.css); */
+@import url(Ultrachromic/episodelist/episodes_grid.css);
+
+/* 媒体列表 */
+@import url(Ultrachromic/header/header_transparent-dashboard.css);
+
+/* 登录列表 */
+@import url(Ultrachromic/login/login_frame.css);
+/* @import url(Ultrachromic/login/login_minimalistic.css); */
+
+/* 输入列表 */
+/* @import url(Ultrachromic/fields/fields_border.css); */
+@import url(Ultrachromic/fields/fields_noborder.css);
+
+/* 未看列表 */
+@import url(Ultrachromic/cornerindicator/indicator_corner.css);
+/* @import url(Ultrachromic/cornerindicator/indicator_floating.css); */
+
+/* 主题样式 */
+@import url(Ultrachromic/type/colorful.css);
+/* @import url(Ultrachromic/type/light.css); */
+/* @import url(Ultrachromic/type/dark.css); */
+/* @import url(Ultrachromic/type/dark_withaccent.css); */
+
+/* 扉页列表 */
+/* @import url(Ultrachromic/titlepage/title_simple.css); */
+/* @import url(Ultrachromic/titlepage/title_simple-logo.css); */
+/* @import url(Ultrachromic/titlepage/title_banner.css); */
+@import url(Ultrachromic/titlepage/title_banner-logo.css);
+
+/* 进度样式 */
+/* @import url(Ultrachromic/overlayprogress.css); */
+@import url(Ultrachromic/bottombarprogress.css);
+/* @import url(Ultrachromic/progress/floating.css); */
+
+@import url(Ultrachromic/effects/hoverglow.css);
+@import url(Ultrachromic/effects/glassy.css);
+
+:root {--rounding: 0px;}
+
+/*Style backdrop*/
+.backdropImage {
+  filter: blur(18px) saturate(120%) contrast(120%) brightness(40%);
+}
+
+/*Login background*/
+#loginPage {background: url(https://i.imgur.com/9vL4iNf.png);}
